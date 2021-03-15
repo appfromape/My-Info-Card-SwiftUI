@@ -13,6 +13,7 @@
 		A066F54F25FF8821009C4B00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A066F54E25FF8821009C4B00 /* Assets.xcassets */; };
 		A066F55225FF8821009C4B00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A066F55125FF8821009C4B00 /* Preview Assets.xcassets */; };
 		A066F55525FF8821009C4B00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A066F55325FF8821009C4B00 /* LaunchScreen.storyboard */; };
+		A066F56125FF8DB4009C4B00 /* Ranchers-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A066F56025FF8DB4009C4B00 /* Ranchers-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A066F55125FF8821009C4B00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A066F55425FF8821009C4B00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A066F55625FF8821009C4B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A066F56025FF8DB4009C4B00 /* Ranchers-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ranchers-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		A066F54725FF8820009C4B00 /* AppfromapeCard */ = {
 			isa = PBXGroup;
 			children = (
+				A066F55D25FF8B79009C4B00 /* fonts */,
 				A066F54825FF8820009C4B00 /* AppDelegate.swift */,
 				A066F54A25FF8820009C4B00 /* SceneDelegate.swift */,
 				A066F54C25FF8820009C4B00 /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				A066F55125FF8821009C4B00 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A066F55D25FF8B79009C4B00 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A066F56025FF8DB4009C4B00 /* Ranchers-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A066F55525FF8821009C4B00 /* LaunchScreen.storyboard in Resources */,
+				A066F56125FF8DB4009C4B00 /* Ranchers-Regular.ttf in Resources */,
 				A066F55225FF8821009C4B00 /* Preview Assets.xcassets in Resources */,
 				A066F54F25FF8821009C4B00 /* Assets.xcassets in Resources */,
 			);
